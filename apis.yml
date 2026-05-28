@@ -1,0 +1,32 @@
+aid: open-topo-data
+name: Open Topo Data
+description: "Elevation and ocean depth for a latitude and longitude"
+url: https://www.opentopodata.org
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: Open Topo Data
+    description: "Elevation and ocean depth for a latitude and longitude"
+    humanURL: https://www.opentopodata.org
+    baseURL: https://www.opentopodata.org
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: https://www.opentopodata.org
+common:
+  - type: Website
+    url: https://www.opentopodata.org
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
