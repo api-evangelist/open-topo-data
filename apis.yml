@@ -39,7 +39,6 @@ apis:
   - name: Open Topo Data
     description: "Elevation and ocean depth for a latitude and longitude"
     humanURL: https://www.opentopodata.org
-    baseURL: https://www.opentopodata.org
     tags:
       - Geocoding
     properties:
